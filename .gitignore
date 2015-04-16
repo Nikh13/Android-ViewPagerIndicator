@@ -29,3 +29,15 @@ R.java
 project.properties
 lint.xml
 .DS_STORE
+
+target/
+*.iml
+*.ipr
+*.iws
+*.log
+*.class
+.idea/
+.gradle
+build/
+*.orig
+local.properties
