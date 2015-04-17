@@ -12,7 +12,7 @@ public class FontCache {
 	public static Typeface getBoldFont(Context context) {
 		if (semiBold == null) {
 			semiBold = Typeface.createFromAsset(context.getResources()
-					.getAssets(), "fonts/font_bold.otf");
+					.getAssets(), "fonts/font_semibold.ttf");
 		}
 		return semiBold;
 	}
